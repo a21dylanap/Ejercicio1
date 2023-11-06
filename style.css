@@ -1,0 +1,58 @@
+h1{
+    
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+p{
+    background-color: rgb(102, 200, 224);
+    border-radius: 5px;
+    padding: 1em;
+
+}
+
+img{
+    border-radius: 50px;
+}
+
+#especial{
+    background-color: rgb(236, 245, 155);
+}
+
+#thprueba{
+   background-color: rgb(236, 245, 155);
+   color:rgb(255, 81, 0)
+}
+
+.pruebaclass{
+    background-color: rgb(110, 110, 255);
+    color: azure;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+a:link{
+    color:red
+}
+
+a:visited{
+    color:magenta
+}
+
+:hover{
+    color:green
+}
+
+a:active{
+    color: aquamarine;
+}

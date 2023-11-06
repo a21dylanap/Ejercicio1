@@ -5,14 +5,21 @@
         <meta charset="UTF-8">
         <title>Abeja</title>
         <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./style.css"> <!-- Linkear con el css -->
         
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
     </head>
         
     <body>
         <a name="principio" id="principio"></a> <!-- Pones el nombre que le quieras dar y luego pones que te direccione al nombre -->
            <h1>Abejas, más listas de lo que pensamos</h1>
+
+           <cite>Dylan Alves Pinto</cite>
            
-                <p>Las abejas son unos insectos extremadamente sociables que viven en colonias que se establecen en forma de 
+                <p id="especial">Las abejas son unos insectos extremadamente sociables que viven en colonias que se establecen en forma de 
                     enjambres y en los que se organizan en una estricta jerarquía de tres rangos sociales: la abeja reina, los zánganos 
                     y las abejas obreras. </p>
             
@@ -35,7 +42,7 @@
                 <ul> <!-- Lista desordenada -->
                     <li>Apis mellifera mellifera (Abeja negra europea) <!-- Para hacer una sublita no se cierra el parrafo, se hace al final -->
                 <ul>
-                    <li>Muy comun</li>
+                    <li>Muy comun &nbsp;</li> <!-- &nbsp; Sirve para poner espacios -->
                 </ul> 
             </li>
                     <li>Apis mellifera Caucásica</li>
@@ -45,6 +52,8 @@
                 </ul>
 
             <h3>Orden de importacia</h3>
+            
+        
 
                 <ol> <!-- Lista Ordenada -->
                     <li>Reina
@@ -57,9 +66,68 @@
                 </ol>
 
             <br>
-        
+
+            <pre> <!--  Sirve para poner espacios y tabuladores y tambien para poner CODIGO -->
+                Sin las abejas      
+                                    MORIRIAMOS                          
+                                                    AAAAAAAAAAAAAAA
+            </pre>
+
+            <code> <!-- Sirve para poner codigo -->
+                    <html>
+                        <h4>Prueba poner codico con la etiquta codigo</h1>
+                    </html>
+
+            </code>
+
+            <blockquote>
+                Esto es un blockquote
+            </blockquote>
+
+            <table border="1">
+                <thead>
             
-            <h4>Fuentes:</h4>
+                </thead>
+                <tbody>
+                    <caption>AAAAAAAAAAAAAAAAAAAAA</caption>
+                    <tr> 
+                        <th id="thprueba">Name</td>
+                        <th>Surname</td>
+                        <th>Surname2</td>
+                        <th>Age</td>
+                        <th>Nacionality</td>
+                        <th>ID</td> 
+                    </tr>
+                   
+                    <tr> 
+                        <td rowspan="2">Manuel</td> <!--Colapsar hacia abajo-->
+                        <td>Pinto</td>
+                        <td rowspan="2">Alvarez</td>
+                        <td>20</td>
+                        <td rowspan="2">Spanish</td>
+                        <td>367644473</td> 
+                    </tr>
+                    <tr>
+                        
+                        <td>Pouso</td>
+                        <td>17</td>
+                        <td>444784784</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Cantidade</th>
+                        <td colspan="5">3</td> <!--Colapsar en linea-->
+                    </tr>
+                </tfoot>
+
+            </table>
+    
+
+            
+            
+            <h4 class="pruebaclass">Fuentes:</h4>
 
             <a href="https://www.nationalgeographic.es/animales/abeja">Link a las fuentes (Link absoluto)</a> <!-- Link absoluto -->
             <br>
@@ -80,8 +148,9 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bienenkoenigin_43a.jpg/800px-Bienenkoenigin_43a.jpg" alt="No se puede visualizar la abeja" width="500"> <!-- Imagen por link de imagen-->
 
 
+            <p class="pruebaclass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem suscipit, sapiente, porro fuga perferendis officia ab eligendi impedit voluptates alias, atque aut ullam repudiandae modi esse? Sunt, magni commodi.</p> <!-- Con lorem pone texto random-->
             
-
+            <img src="https://picsum.photos/id/237/600/400" alt="xd"> <!-- Con picsum pone imagen aleatoria-->
     </body>
 
 
